@@ -30,8 +30,12 @@ section {
     padding: 20px;
 }
 
+h3{
+    
+}
+
 .img-responsive {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -40,8 +44,14 @@ section {
 }
 
 .img-team {
-    max-width: 200px;
+    max-width: 100px;
     height: auto;
+    display: inline-block; /* Ahora las imágenes se mostrarán en línea */
+}
+
+.fix-text {
+    display: inline-block; /* Los elementos de texto también se mostrarán en línea */
+    max-width: 90%;
 }
 
 footer {
