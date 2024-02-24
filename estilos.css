@@ -8,30 +8,59 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
-nav ul {
+.favicon {
+    border-radius: 50%;
+}
+
+.navigate-bar {
+    position: relative;
+}
+
+.body-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.list-bar {
+    display: inline-block;
 }
 
-nav ul li a {
+.item-bar {
+    border-radius: 10px;
     text-decoration: none;
-    color: #fff;
+    display: block;
+    padding: 12px;
+    color: white;
+    background-color: #333;
+    transition: all 0.3s ease;
+}
+
+.item-bar:hover {
+    width: 93vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 1px rgb(168, 13, 189);
+}
+
+
+#liga {
+    text-align: center;
 }
 
 section {
     padding: 20px;
 }
 
-h3{
-    
+.team-title {
+    text-align: center;
 }
 
 .img-responsive {
@@ -44,15 +73,24 @@ h3{
 }
 
 .img-team {
+    box-shadow: 2px 2px 1px rgb(168, 13, 189);
     max-width: 100px;
     height: auto;
-    display: inline-block; /* Ahora las imágenes se mostrarán en línea */
+    display: inline-block;
 }
 
 .fix-text {
-    display: inline-block; /* Los elementos de texto también se mostrarán en línea */
+    display: inline-block;
     max-width: 90%;
 }
+
+/* Fondo opaco blanco */
+.background-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Oculta el desbordamiento de la imagen */
+}
+
 
 footer {
     background-color: #333;

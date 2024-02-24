@@ -2,27 +2,44 @@
 <html lang="es">
 
 <head>
+    <!-- Definición del conjunto de caracteres -->
     <meta charset="UTF-8">
+    <!-- Configuración de la visualización en dispositivos -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
     <title>Futbol Inglés</title>
-    <link rel="icon" href="./img/avatar-premier.jpg" type="image/x-icon">
+    <!-- Ícono de la página -->
+    <link class="favicon" rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- Enlace a la hoja de estilos -->
     <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
+    <!-- Encabezado de la página -->
     <header>
+        <!-- Título principal -->
         <h1 class="title">Futbol Inglés</h1>
-        <nav>
-            <ul>
-                <li><a href="#liga">Liga Premier</a></li>
-                <li><a href="#equipos">Equipos</a></li>
-                <li><a href="#noticias">Noticias</a></li>
+        <!-- Barra de navegación -->
+        <nav class="navigate-bar">
+            <!-- Lista de enlaces -->
+            <ul class="body-bar">
+                <!-- Elemento de la lista -->
+                <li class="list-bar"><a class="item-bar" href="https://www.premierleague.com/matchweek/12294/blog">Liga
+                        Premier</a></li>
+                <!-- Elemento de la lista -->
+                <li class="list-bar"><a class="item-bar" href="https://www.premierleague.com/home">Equipos</a></li>
+                <!-- Elemento de la lista -->
+                <li class="list-bar"><a class="item-bar"
+                        href="https://www.premierleague.com/footballandcommunity/community">Noticias</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Sección de la Liga Premier -->
     <section id="liga">
+        <!-- Título de la sección -->
         <h2>Liga Premier</h2>
+        <!-- Descripción de la Liga Premier -->
         <p>La Premier League es la principal liga de fútbol profesional en Inglaterra, reconocida por su alta
             competitividad y seguida por millones de aficionados en todo el mundo. Con 20 equipos que compiten en un
             formato de liga, el campeón se determina al final de la temporada regular, donde los cuatro primeros equipos
@@ -30,13 +47,19 @@
             con los tres equipos con peor desempeño siendo relegados a la English Football League Championship. La liga
             cuenta con una enorme base de seguidores, atrae a algunos de los mejores talentos internacionales y es
             conocida por sus estadios llenos de historia y tradición.</p>
+        <!-- Imagen representativa de la Liga Premier -->
         <img src="./img/avatar-premier.jpg" alt="Liga Premier" class="img-responsive">
     </section>
 
+    <!-- Sección de Equipos -->
     <section id="equipos">
-        <h2>Equipos</h2>
+        <!-- Título de la sección -->
+        <h2 class="team-title">Equipos</h2>
+        <!-- Primer equipo: Liverpool FC -->
         <div class="team">
+            <!-- Nombre del equipo -->
             <h3 id="liv">Liverpool FC</h3>
+            <!-- Descripción del equipo -->
             <p class="fix-text">El Liverpool FC es uno de los clubes más emblemáticos y exitosos de la Premier League,
                 con una rica
                 historia y una base de seguidores apasionada en todo el mundo. Fundado en 1892, el Liverpool ha ganado
@@ -46,10 +69,14 @@
                 primeros puestos bajo la dirección de destacados entrenadores y con una plantilla de jugadores
                 talentosos. Su estadio, Anfield, es legendario por su atmósfera única y su historia rica en tradición
                 futbolística.</p>
+            <!-- Logo del equipo -->
             <img src="./img/logo-liverpool.png" alt="Manchester United" class="img-team">
         </div>
+        <!-- Segundo equipo: Everton -->
         <div class="team">
+            <!-- Nombre del equipo -->
             <h3 id="everton">Everton</h3>
+            <!-- Descripción del equipo -->
             <p class="fix-text">El Everton FC es otro club histórico de la Premier League, con una base de seguidores
                 leales y una rica
                 trayectoria en el fútbol inglés. Fundado en 1878, el Everton ha competido en la máxima categoría del
@@ -59,13 +86,14 @@
                 locales. A pesar de no haber alcanzado el mismo nivel de éxito reciente que algunos de sus rivales, el
                 Everton sigue siendo un club respetado y un participante destacado en la Premier League, compitiendo en
                 su estadio, Goodison Park, conocido por su atmósfera única y su historia en el fútbol inglés.</p>
+            <!-- Logo del equipo -->
             <img src="./img/logo-everton.png" alt="Chelsea FC" class="img-team">
         </div>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Futbol Inglés</p>
-    </footer>
 </body>
+
+<footer>
+    Futbol Inglés - Derby de Liverpool
+</footer>
 
 </html>
